@@ -157,12 +157,12 @@
     <ClCompile Include="2DArrayDs\2DArrayDs.cpp" />
     <ClCompile Include="ArrayDs\ArrayDs.cpp" />
     <ClCompile Include="ProblemSolving.DataStructures.cpp" />
-    <ClCompile Include="_Common\ArrayExtension.cpp" />
+    <ClCompile Include="_Common\ArrayCommon.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="2DArrayDs\2DArrayDs.h" />
     <ClInclude Include="ArrayDs\ArrayDs.h" />
-    <ClInclude Include="_Common\ArrayExtension.h" />
+    <ClInclude Include="_Common\ArrayCommon.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

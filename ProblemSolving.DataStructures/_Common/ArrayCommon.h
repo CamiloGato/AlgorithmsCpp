@@ -1,5 +1,5 @@
-﻿#ifndef ARRAYEXTENSION_H
-#define ARRAYEXTENSION_H
+﻿#ifndef ARRAYCOMMON_H
+#define ARRAYCOMMON_H
 
 #include <string>
 #include <vector>

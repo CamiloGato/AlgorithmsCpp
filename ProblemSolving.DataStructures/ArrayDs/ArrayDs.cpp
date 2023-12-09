@@ -1,5 +1,5 @@
 ﻿#include "ArrayDs.h"
-#include "../_Common/ArrayExtension.h"
+#include "..\_Common\ArrayCommon.h"
 #include <iostream>
 
 using namespace std;

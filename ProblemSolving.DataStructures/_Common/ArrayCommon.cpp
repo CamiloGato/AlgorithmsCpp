@@ -1,4 +1,4 @@
-﻿#include "ArrayExtension.h"
+﻿#include "ArrayCommon.h"
 #include <functional>
 
 std::string ltrim(const std::string &str) {
@@ -27,7 +27,7 @@ std::vector<std::string> split(const std::string &str) {
     std::vector<std::string> tokens;
 
     std::string::size_type start = 0;
-    std::string::size_type end = 0;
+    std::string::size_type end;
 
     while ((end = str.find(" ", start)) != std::string::npos) {
         tokens.push_back(str.substr(start, end - start));
