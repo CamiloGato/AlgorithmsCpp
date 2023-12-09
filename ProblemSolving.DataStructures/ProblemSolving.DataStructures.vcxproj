@@ -156,16 +156,15 @@
   <ItemGroup>
     <ClCompile Include="2DArrayDs\2DArrayDs.cpp" />
     <ClCompile Include="ArrayDs\ArrayDs.cpp" />
+    <ClCompile Include="DynamicArray\DynamicArray.cpp" />
     <ClCompile Include="ProblemSolving.DataStructures.cpp" />
     <ClCompile Include="_Common\ArrayCommon.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="2DArrayDs\2DArrayDs.h" />
     <ClInclude Include="ArrayDs\ArrayDs.h" />
+    <ClInclude Include="DynamicArray\DynamicArray.h" />
     <ClInclude Include="_Common\ArrayCommon.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="DynamicArray\" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

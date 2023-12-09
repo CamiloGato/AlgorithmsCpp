@@ -1,8 +1,8 @@
-#include "2DArrayDs/2DArrayDs.h"
+#include "DynamicArray/DynamicArray.h"
 
 
 int main(int argc, char* argv[])
 {
-    arrayDs2D();
+    dynamicArray();
     return 0;
 }
