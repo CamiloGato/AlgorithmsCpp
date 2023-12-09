@@ -1,8 +1,8 @@
-#include "SparseArray/SparseArray.h"
+#include "ArrayManipulation/ArrayManipulation.h"
 
 
 int main(int argc, char* argv[])
 {
-    sparseArray();
+    arrayManipulation();
     return 0;
 }
