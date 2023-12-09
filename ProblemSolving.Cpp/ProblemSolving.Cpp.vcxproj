@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{F0A9AF4C-50E1-4E6C-B18E-DF32502C9B92}</ProjectGuid>
+    <ProjectGuid>{72E04536-CA98-4B96-B1A4-747C88984F83}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>ProblemSolving.DataStructures</RootNamespace>
+    <RootNamespace>ProblemSolving.Cpp</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -154,19 +154,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="2DArrayDs\2DArrayDs.cpp" />
-    <ClCompile Include="ArrayDs\ArrayDs.cpp" />
-    <ClCompile Include="DynamicArray\DynamicArray.cpp" />
-    <ClCompile Include="LeftRotation\LeftRotation.cpp" />
-    <ClCompile Include="ProblemSolving.DataStructures.cpp" />
-    <ClCompile Include="_Common\ArrayCommon.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="2DArrayDs\2DArrayDs.h" />
-    <ClInclude Include="ArrayDs\ArrayDs.h" />
-    <ClInclude Include="DynamicArray\DynamicArray.h" />
-    <ClInclude Include="LeftRotation\LeftRotation.h" />
-    <ClInclude Include="_Common\ArrayCommon.h" />
+    <ClCompile Include="ProblemSolving.Cpp.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

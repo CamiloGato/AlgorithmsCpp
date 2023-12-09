@@ -2,6 +2,12 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProblemSolving.DataStructures", "ProblemSolving.DataStructures\ProblemSolving.DataStructures.vcxproj", "{F0A9AF4C-50E1-4E6C-B18E-DF32502C9B92}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProblemSolving.Algorithms", "ProblemSolving.Algorithms\ProblemSolving.Algorithms.vcxproj", "{D70124F0-03A7-4EBC-AA25-DC6121F42E55}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProblemSolving.Mathematics", "ProblemSolving.Mathematics\ProblemSolving.Mathematics.vcxproj", "{B8AC0E1D-0ACC-4894-A976-ACD98996BCC5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProblemSolving.Cpp", "ProblemSolving.Cpp\ProblemSolving.Cpp.vcxproj", "{72E04536-CA98-4B96-B1A4-747C88984F83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +18,17 @@ Global
 		{F0A9AF4C-50E1-4E6C-B18E-DF32502C9B92}.Debug|Any CPU.Build.0 = Debug|Win32
 		{F0A9AF4C-50E1-4E6C-B18E-DF32502C9B92}.Release|Any CPU.ActiveCfg = Release|Win32
 		{F0A9AF4C-50E1-4E6C-B18E-DF32502C9B92}.Release|Any CPU.Build.0 = Release|Win32
+		{D70124F0-03A7-4EBC-AA25-DC6121F42E55}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{D70124F0-03A7-4EBC-AA25-DC6121F42E55}.Debug|Any CPU.Build.0 = Debug|Win32
+		{D70124F0-03A7-4EBC-AA25-DC6121F42E55}.Release|Any CPU.ActiveCfg = Release|Win32
+		{D70124F0-03A7-4EBC-AA25-DC6121F42E55}.Release|Any CPU.Build.0 = Release|Win32
+		{B8AC0E1D-0ACC-4894-A976-ACD98996BCC5}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{B8AC0E1D-0ACC-4894-A976-ACD98996BCC5}.Debug|Any CPU.Build.0 = Debug|Win32
+		{B8AC0E1D-0ACC-4894-A976-ACD98996BCC5}.Release|Any CPU.ActiveCfg = Release|Win32
+		{B8AC0E1D-0ACC-4894-A976-ACD98996BCC5}.Release|Any CPU.Build.0 = Release|Win32
+		{72E04536-CA98-4B96-B1A4-747C88984F83}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{72E04536-CA98-4B96-B1A4-747C88984F83}.Debug|Any CPU.Build.0 = Debug|Win32
+		{72E04536-CA98-4B96-B1A4-747C88984F83}.Release|Any CPU.ActiveCfg = Release|Win32
+		{72E04536-CA98-4B96-B1A4-747C88984F83}.Release|Any CPU.Build.0 = Release|Win32
 	EndGlobalSection
 EndGlobal
