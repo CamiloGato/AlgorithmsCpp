@@ -1,8 +1,8 @@
-#include "DynamicArray/DynamicArray.h"
+#include "LeftRotation/LeftRotation.h"
 
 
 int main(int argc, char* argv[])
 {
-    dynamicArray();
+    leftRotation();
     return 0;
 }
