@@ -1,8 +1,8 @@
-#include "LeftRotation/LeftRotation.h"
+#include "SparseArray/SparseArray.h"
 
 
 int main(int argc, char* argv[])
 {
-    leftRotation();
+    sparseArray();
     return 0;
 }

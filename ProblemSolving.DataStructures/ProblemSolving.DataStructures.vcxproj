@@ -159,6 +159,7 @@
     <ClCompile Include="DynamicArray\DynamicArray.cpp" />
     <ClCompile Include="LeftRotation\LeftRotation.cpp" />
     <ClCompile Include="ProblemSolving.DataStructures.cpp" />
+    <ClCompile Include="SparseArray\SparseArray.cpp" />
     <ClCompile Include="_Common\ArrayCommon.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -166,6 +167,7 @@
     <ClInclude Include="ArrayDs\ArrayDs.h" />
     <ClInclude Include="DynamicArray\DynamicArray.h" />
     <ClInclude Include="LeftRotation\LeftRotation.h" />
+    <ClInclude Include="SparseArray\SparseArray.h" />
     <ClInclude Include="_Common\ArrayCommon.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
