@@ -165,9 +165,6 @@
     <ClInclude Include="_Common\ArrayCommon.h" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ProblemSolving.DataStructures.vcxproj.filters" />
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="DynamicArray\" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

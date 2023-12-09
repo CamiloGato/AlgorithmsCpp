@@ -1,6 +1,9 @@
 # Rider
 .idea/
 
+#Debug
+**/Debug/
+
 # Prerequisites
 *.d
 
