@@ -9,7 +9,19 @@ using namespace std;
 
 SinglyLinkedListNode* insertNodeAtTail(SinglyLinkedListNode* head, int data)
 {
-    
+    SinglyLinkedListNode* newNode = new SinglyLinkedListNode(data);
+
+    if (head == nullptr) {
+        head = newNode;
+    } else {
+        SinglyLinkedListNode* currentNode = head;
+        while (currentNode->next != nullptr) {
+            currentNode = currentNode->next;
+        }
+        currentNode->next = newNode;
+    }
+
+    return head;
 }
 
 int insertNodeTailLinkedList()
