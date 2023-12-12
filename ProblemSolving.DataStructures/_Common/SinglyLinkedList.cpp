@@ -1,8 +1,11 @@
 ﻿#include "SinglyLinkedList.h"
 
 #include <cstdlib>
+#include <fstream>
+#include <iostream>
+#include <vector>
 
-SinglyLinkedListNode::SinglyLinkedListNode(int node_data) {
+SinglyLinkedListNode::SinglyLinkedListNode(const int node_data) {
     this->data = node_data;
     this->next = nullptr;
 }
@@ -12,7 +15,15 @@ SinglyLinkedList::SinglyLinkedList() {
     this->tail = nullptr;
 }
 
-void SinglyLinkedList::insert_node(int node_data) {
+void print_singly_linked_list(const SinglyLinkedListNode* node, const std::string& sep, std::vector<int>& fOut) {
+    while (node) {
+        fOut.emplace_back(node->data);
+        std::cout << node->data << std::endl; 
+        node = node->next;
+    }
+}
+
+void SinglyLinkedList::insert_node(const int node_data) {
     SinglyLinkedListNode* node = new SinglyLinkedListNode(node_data);
 
     if (!this->head) {

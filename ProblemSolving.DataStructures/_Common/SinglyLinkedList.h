@@ -1,5 +1,7 @@
 ﻿#ifndef LINKED_LIST
 #define LINKED_LIST
+#include <string>
+#include <vector>
 
 class SinglyLinkedListNode {
 public:
@@ -19,6 +21,7 @@ public:
     void insert_node(int node_data);
 };
 
+void print_singly_linked_list(const SinglyLinkedListNode* node, const std::string& sep, std::vector<int>& fOut);
 void free_singly_linked_list(SinglyLinkedListNode* node);
 
 #endif
