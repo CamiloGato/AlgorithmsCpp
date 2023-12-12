@@ -158,6 +158,7 @@
     <ClCompile Include="ArrayDs\ArrayDs.cpp" />
     <ClCompile Include="ArrayManipulation\ArrayManipulation.cpp" />
     <ClCompile Include="DynamicArray\DynamicArray.cpp" />
+    <ClCompile Include="InsertNodeHeadLinkedList\InsertNodeHeadLinkedList.cpp" />
     <ClCompile Include="InsertNodeTailLinkedList\InsertNodeTailLinkedList.cpp" />
     <ClCompile Include="LeftRotation\LeftRotation.cpp" />
     <ClCompile Include="PrintElementsLinkedList\PrintElementsLinkedList.cpp" />
@@ -171,6 +172,7 @@
     <ClInclude Include="ArrayDs\ArrayDs.h" />
     <ClInclude Include="ArrayManipulation\ArrayManipulation.h" />
     <ClInclude Include="DynamicArray\DynamicArray.h" />
+    <ClInclude Include="InsertNodeHeadLinkedList\InsertNodeHeadLinkedList.h" />
     <ClInclude Include="InsertNodeTailLinkedList\InsertNodeTailLinkedList.h" />
     <ClInclude Include="LeftRotation\LeftRotation.h" />
     <ClInclude Include="PrintElementsLinkedList\PrintElementsLinkedList.h" />

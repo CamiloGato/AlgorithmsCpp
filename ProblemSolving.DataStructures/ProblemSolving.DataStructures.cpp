@@ -1,9 +1,8 @@
-#include "ArrayManipulation/ArrayManipulation.h"
-#include "InsertNodeTailLinkedList/InsertNodeTailLinkedList.h"
+#include "InsertNodeHeadLinkedList/InsertNodeHeadLinkedList.h"
 
 
 int main(int argc, char* argv[])
 {
-    insertNodeTailLinkedList();
+    insertNodeHeadLinkedList();
     return 0;
 }
