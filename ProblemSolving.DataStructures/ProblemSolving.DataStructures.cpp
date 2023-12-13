@@ -1,8 +1,8 @@
-#include "InsertNodeHeadLinkedList/InsertNodeHeadLinkedList.h"
+#include "InsertNodePositionLinkedList/InsertNodeLinkedList.h"
 
 
 int main(int argc, char* argv[])
 {
-    insertNodeHeadLinkedList();
+    insertNodePositionLinkedList();
     return 0;
 }
