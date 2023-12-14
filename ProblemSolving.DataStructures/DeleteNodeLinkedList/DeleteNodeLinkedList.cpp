@@ -12,14 +12,14 @@ SinglyLinkedListNode* deleteNode(SinglyLinkedListNode* llist, int position)
     {
         SinglyLinkedListNode* nodeToDelete = llist;
         llist = llist->next;
-        delete nodeToDelete;  // Use 'delete' for memory allocated with 'new'
+        delete nodeToDelete;
         return llist;
     }
 
     SinglyLinkedListNode* currentNode = llist;
     for (int i = 0; i < position-1; ++i)
     {
-        if (currentNode->next == nullptr) return llist;  // Position out of range, do nothing
+        if (currentNode->next == nullptr) return llist;
         currentNode = currentNode->next;
     }
     SinglyLinkedListNode* nodeToDelete = currentNode->next;
