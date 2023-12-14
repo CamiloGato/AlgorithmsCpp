@@ -1,8 +1,9 @@
+#include "DeleteNodeLinkedList/DeleteNodeLinkedList.h"
 #include "InsertNodePositionLinkedList/InsertNodeLinkedList.h"
 
 
 int main(int argc, char* argv[])
 {
-    insertNodePositionLinkedList();
+    deleteNodeLinkedList();
     return 0;
 }

@@ -157,6 +157,7 @@
     <ClCompile Include="2DArrayDs\2DArrayDs.cpp" />
     <ClCompile Include="ArrayDs\ArrayDs.cpp" />
     <ClCompile Include="ArrayManipulation\ArrayManipulation.cpp" />
+    <ClCompile Include="DeleteNodeLinkedList\DeleteNodeLinkedList.cpp" />
     <ClCompile Include="DynamicArray\DynamicArray.cpp" />
     <ClCompile Include="InsertNodeHeadLinkedList\InsertNodeHeadLinkedList.cpp" />
     <ClCompile Include="InsertNodePositionLinkedList\InsertNodeLinkedList.cpp" />
@@ -172,6 +173,7 @@
     <ClInclude Include="2DArrayDs\2DArrayDs.h" />
     <ClInclude Include="ArrayDs\ArrayDs.h" />
     <ClInclude Include="ArrayManipulation\ArrayManipulation.h" />
+    <ClInclude Include="DeleteNodeLinkedList\DeleteNodeLinkedList.h" />
     <ClInclude Include="DynamicArray\DynamicArray.h" />
     <ClInclude Include="InsertNodeHeadLinkedList\InsertNodeHeadLinkedList.h" />
     <ClInclude Include="InsertNodePositionLinkedList\InsertNodeLinkedList.h" />
