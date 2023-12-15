@@ -166,6 +166,7 @@
     <ClCompile Include="PrintElementsLinkedList\PrintElementsLinkedList.cpp" />
     <ClCompile Include="PrintNodeReverseLinkedList\PrintNodeReverseLinkedList.cpp" />
     <ClCompile Include="ProblemSolving.DataStructures.cpp" />
+    <ClCompile Include="ReverseLinkedList\ReverseLinkedList.cpp" />
     <ClCompile Include="SparseArray\SparseArray.cpp" />
     <ClCompile Include="_Common\ArrayCommon.cpp" />
     <ClCompile Include="_Common\SinglyLinkedList.cpp" />
@@ -182,6 +183,7 @@
     <ClInclude Include="LeftRotation\LeftRotation.h" />
     <ClInclude Include="PrintElementsLinkedList\PrintElementsLinkedList.h" />
     <ClInclude Include="PrintNodeReverseLinkedList\PrintNodeReverseLinkedList.h" />
+    <ClInclude Include="ReverseLinkedList\ReverseLinkedList.h" />
     <ClInclude Include="SparseArray\SparseArray.h" />
     <ClInclude Include="_Common\ArrayCommon.h" />
     <ClInclude Include="_Common\SinglyLinkedList.h" />
