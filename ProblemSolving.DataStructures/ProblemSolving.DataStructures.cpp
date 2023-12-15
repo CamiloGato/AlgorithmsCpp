@@ -1,9 +1,8 @@
-#include "DeleteNodeLinkedList/DeleteNodeLinkedList.h"
-#include "InsertNodePositionLinkedList/InsertNodeLinkedList.h"
+#include "PrintNodeReverseLinkedList/PrintNodeReverseLinkedList.h"
 
 
 int main(int argc, char* argv[])
 {
-    deleteNodeLinkedList();
+    printNodeReverseLinkedList();
     return 0;
 }
